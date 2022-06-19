@@ -52,3 +52,25 @@
   max-width: none;
   line-height: var(--line-height-loose);
 }
+
+.orderButton {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  font-weight: 600;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 24px;
+  box-shadow: inset -2px -1px 0 5px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.orderButton:focus {
+  outline: none;
+  box-shadow: inset -2px -1px 0 5px;
+}
+
+.orderButton:hover {
+  padding: 0 22px;
+}
